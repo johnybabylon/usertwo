@@ -7,9 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UITextFieldDelegate>{
+    IBOutlet UITextField *nameTextField;
+    IBOutlet UITextField *emailTextField;
+}
+
+@property (nonatomic, strong) User *userObject;
+@property (nonatomic, weak) IBOutlet UITextField *nameTextField;
+@property (nonatomic, weak) IBOutlet UITextField *emailTextField;
+
+
+
+- (void)saveUserObject;
+- (void)loadUserObject;
+- (void)setUserValues;
+
+
 
 
 @end
-

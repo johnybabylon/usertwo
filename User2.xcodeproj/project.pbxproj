@@ -14,6 +14,7 @@
 		29B80F9E1C11C34B00D22239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B80F9D1C11C34B00D22239 /* Images.xcassets */; };
 		29B80FA11C11C34B00D22239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29B80F9F1C11C34B00D22239 /* LaunchScreen.xib */; };
 		29B80FAD1C11C34B00D22239 /* User2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B80FAC1C11C34B00D22239 /* User2Tests.m */; };
+		29B80FB81C11C37900D22239 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B80FB71C11C37900D22239 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		29B80FA61C11C34B00D22239 /* User2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = User2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B80FAB1C11C34B00D22239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B80FAC1C11C34B00D22239 /* User2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User2Tests.m; sourceTree = "<group>"; };
+		29B80FB61C11C37900D22239 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = ../User.h; sourceTree = "<group>"; };
+		29B80FB71C11C37900D22239 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = ../User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		29B80F8F1C11C34B00D22239 /* User2 */ = {
 			isa = PBXGroup;
 			children = (
+				29B80FB61C11C37900D22239 /* User.h */,
+				29B80FB71C11C37900D22239 /* User.m */,
 				29B80F941C11C34B00D22239 /* AppDelegate.h */,
 				29B80F951C11C34B00D22239 /* AppDelegate.m */,
 				29B80F971C11C34B00D22239 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B80FB81C11C37900D22239 /* User.m in Sources */,
 				29B80F991C11C34B00D22239 /* ViewController.m in Sources */,
 				29B80F961C11C34B00D22239 /* AppDelegate.m in Sources */,
 				29B80F931C11C34B00D22239 /* main.m in Sources */,
